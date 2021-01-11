@@ -1,0 +1,62 @@
+s = input('Print your text:')
+for i in s:
+    print(2 * i, end='')
+
+
+
+x  = 'Hello\n'
+print(x [-1::-1])
+
+
+
+
+x = float(input('Enter your  first number:\n'))
+y = float(input('Enter your second number:\n'))
+operation = input('Enter  your operation (+,-,/,+,**): \n')
+result = None
+if operation == '+' :
+      result = x + y
+elif operation == '-':
+        result = x - y
+elif operation =='/':
+        result = x / y
+elif operation == '**':
+        result = x ** y
+elif operation == '*':
+        result = x * y
+else:
+    while True:
+        print('Please enter your operation again: ')
+        operation = input('')
+        if operation =='/':
+            break
+        if operation =='-':
+            break
+        if operation =='+':
+            break
+        if operation =='*':
+            break
+        if operation =='**':
+            break
+if operation == '+' :
+      result = x + y
+elif operation == '-':
+        result = x - y
+elif operation =='/':
+        result = x / y
+elif operation == '**':
+        result = x ** y
+elif operation == '*':
+        result = x * y
+
+print( 'Your result =',result)
+
+
+
+line = input("Початковий текст: ")
+shyfr=""
+for bukva in line:
+    shyfr=shyfr+chr(ord(bukva)+3)
+print(shyfr)
+
+
